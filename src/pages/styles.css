@@ -1,0 +1,14 @@
+/* styles.css */
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-label {
+    margin-right: 10px;
+}
+
+.custom-input {
+    width: 250px;
+    margin: 3px;
+}
