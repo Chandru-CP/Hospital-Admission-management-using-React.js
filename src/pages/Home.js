@@ -6,6 +6,19 @@ import naveen from './naveen.jpg';
 import dhakshana from './dhakshana.jpg';
 import varshini from './varshini.jpg';
 import aj from './aj.jpg';
+import ca from './image/ca.jpg';
+import ha from './image/ha.jpg';
+import hb from './image/hb.jpg';
+import hp1 from './image/hp1.jpg';
+import hp2 from './image/hp2.jpg';
+import hv from './image/hv.jpg';
+import a1 from './image/a1.jpg';
+import a2 from './image/a2.jpg';
+import a3 from './image/a3.jpg';
+import a4 from './image/a4.jpg';
+import heart from './image/heart.png';
+import wall from './image/wall.png';
+import hand from './image/hand.png';
 
 
 function Home() {
@@ -294,7 +307,7 @@ function Home() {
       <ul class="flex-container" style={{listStyle: "none" ,display: "flex"}}>
         <div class="card " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-07.3f5f630a.jpg" class="img-thumbnail" alt="Cinque Terre" style={{ transition: 'transform 0.3s ease-in-out' }}/>
+            <img src={hv} class="img-thumbnail" alt="Cinque Terre" style={{ transition: 'transform 0.3s ease-in-out' }}/>
           </div>
           <h3 style={{textAlign:"center"}} id="Oppoinment" value="Heart Valve Disease">Heart Valve Disease</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -314,7 +327,7 @@ function Home() {
         </div>
         <div class="card "onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-08.63367296.jpg" class="img-thumbnail" alt="Cinque Terre"/>
+            <img src={ca} class="img-thumbnail" alt="Cinque Terre"/>
           </div>
           <h3 style={{textAlign:"center"}}>Coronary Artery Disease</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -334,7 +347,7 @@ function Home() {
         </div>
         <div class="card" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-09.bc995733.jpg" class="img-thumbnail" alt="Cinque Terre"/>
+            <img src={hb} class="img-thumbnail" alt="Cinque Terre"/>
           </div>
           <h3 style={{textAlign:"center"}}>High Blood Pressure</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -356,7 +369,7 @@ function Home() {
         <ul class="flex-container" style={{listStyle: "none" ,display: "flex"}}>
         <div class="card " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-10.af0945a7.jpg" class="img-thumbnail" alt="Cinque Terre"/>
+            <img src={ha} class="img-thumbnail" alt="Cinque Terre"/>
           </div>
           <h3 style={{textAlign:"center"}}>Heart Attack</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -376,7 +389,7 @@ function Home() {
         </div>  
         <div class="card " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-11.3a2c7d40.jpg" class="img-thumbnail" alt="Cinque Terre"/>
+            <img src={hp2} class="img-thumbnail" alt="Cinque Terre"/>
           </div>
           <h3 style={{textAlign:"center"}}>Heart Palpitations</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -396,7 +409,7 @@ function Home() {
         </div>
         <div class="card " onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} style={{margin:"6px"}}>
           <div class="card-body text-center">
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-12.150abcaf.jpg" class="img-thumbnail" alt="Cinque Terre"/>
+            <img src={hp1} class="img-thumbnail" alt="Cinque Terre"/>
           </div>
           <h3 style={{textAlign:"center"}}>Heart Palpitations</h3>
           <ul class="flex-container" style={{listStyle: "none" ,display: "flex",paddingLeft:"6px"}}>
@@ -472,10 +485,10 @@ function Home() {
       <ul  style={{listStyle: "none",marginBottom:"3px",paddingLeft:"0px"}}>
         <li>
           <div>
-              <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-13.ba916e98.jpg"  class="rounded border "style={{width:"100%",marginTop:"100px",marginBottom:"20px"}}/>
+              <img src={a1}  class="rounded border "style={{width:"100%",marginTop:"100px",marginBottom:"20px"}}/>
           </div>
           <div>
-             <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-16.c7157172.jpg"class="rounded border " style={{width:"100%"}}/>
+             <img src={a2}class="rounded border " style={{width:"100%"}}/>
          </div>
        </li>
       </ul>
@@ -484,10 +497,10 @@ function Home() {
      <ul  style={{listStyle: "none",marginBottom:"3px",paddingLeft:"0px"}}>
       <li>
         <div>
-            <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-14.a36e1f00.jpg"  class="rounded border "style={{width:"100%",marginTop:"40px",marginBottom:"20px"}}/>
+            <img src={a3}  class="rounded border "style={{width:"100%",marginTop:"40px",marginBottom:"20px"}}/>
         </div>
         <div>
-          <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/feature-15.b8a44c23.jpg"class="rounded border " style={{width:"100%"}}/>
+          <img src={a4} class="rounded border " style={{width:"100%"}}/>
         </div>
       </li>
       </ul>
@@ -620,7 +633,7 @@ function Home() {
   </div>
   <br></br>
 <div class="card img-fluid" style={{marginRight:"70px", marginLeft:"70px"}}>
-    <img class="card-img-top" src="https://th.bing.com/th?id=OIP.NUJXMMuV9N8BigFFuAaKKwAAAA&w=16&h=16&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Card image"style={{height:"330px", borderRadius: '50px'}}/>
+    <img class="card-img-top" src="https://th.bing.com/th?id=OIP.NUJXMMuV9N8BigFFuAaKKwAAAA&w=16&h=16&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Card image"style={{height:"330px", borderRadius: '50px',borderBlockColor:"None"}}/>
     <div class="card-img-overlay">
       <ul  style={{listStyle: "none",marginBottom:"3px",paddingLeft:"0px"}}>
         <li>
@@ -629,18 +642,13 @@ function Home() {
       <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
         </li>
-        <li><p><img src="https://www.bing.com/images/blob?bcid=r-dicQNaXFkGqw" style={{ float: 'right',paddingRight:"240px" }}/></p></li>
-        <li> <img src="https://doccure.dreamstechnologies.com/vuejs/template/img/hand.5eca72ba.png" style={{ position: 'absolute', bottom: 0, right: 0 }}/></li>
-        <li><img src="https://doccure.dreamstechnologies.com/vuejs/template/img/hexagen-group-3.c5bd927f.png"style={{ position: 'absolute', bottom: 0 }}/></li>
+        <li><p><img src={heart} style={{ float: 'right',paddingRight:"240px",paddingBottom:"100px" }}/></p></li>
+        <li> <img src={hand} style={{ position: 'absolute', bottom: 0, right: 0 }}/></li>
+        <li><img src={wall}style={{ position: 'absolute', bottom: 0 }}/></li>
       </ul>
     </div>
   </div>
 </div>
-
-
-
-
   );
 }
-
 export default Home;
